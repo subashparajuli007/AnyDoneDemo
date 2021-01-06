@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AnyDone_Example' do
+  pod 'AnyDone', :path => '../'
+
+  target 'AnyDone_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
