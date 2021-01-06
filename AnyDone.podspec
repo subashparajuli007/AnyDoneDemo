@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'Allows the user to tap on a buton. Message is displayed in the console when the user taps on the button.'
                        DESC
 
-  s.homepage         = 'https://github.com/subashparajuli007/AnyDone'
+  s.homepage         = 'https://github.com/subashparajuli007/AnyDoneDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'subashparajuli007' => 'subashparajuli91@gmail.com' }
-  s.source           = { :git => 'https://github.com/subashparajuli007/AnyDone.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/subashparajuli007/AnyDoneDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/scubax07'
 
   s.ios.deployment_target = '9.0'
