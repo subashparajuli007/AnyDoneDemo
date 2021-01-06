@@ -1,0 +1,22 @@
+{
+  "name": "AnyDone",
+  "version": "0.1.0",
+  "summary": "A short description of AnyDone.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/subashparajuli007/AnyDone",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "subashparajuli007": "subashparajuli91@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/subashparajuli007/AnyDone.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AnyDone/Classes/**/*"
+}

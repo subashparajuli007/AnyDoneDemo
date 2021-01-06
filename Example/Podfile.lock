@@ -1,0 +1,16 @@
+PODS:
+  - AnyDone (0.1.0)
+
+DEPENDENCIES:
+  - AnyDone (from `../`)
+
+EXTERNAL SOURCES:
+  AnyDone:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyDone: 389cd5532bdd0de9a2d754d0fd11757b6e9d7019
+
+PODFILE CHECKSUM: 8eea10a85e73cc79037bc5a4d30b6e964cb5efc9
+
+COCOAPODS: 1.10.0

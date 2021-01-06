@@ -1,0 +1,6 @@
+framework module AnyDone {
+  umbrella header "AnyDone-umbrella.h"
+
+  export *
+  module * { export * }
+}
