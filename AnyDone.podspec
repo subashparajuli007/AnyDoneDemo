@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AnyDone'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AnyDone.'
+  s.summary          = 'Allows the user to tap on a buton.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'Allows the user to tap on a buton. Message is displayed in the console when the user taps on the button.'
                        DESC
 
   s.homepage         = 'https://github.com/subashparajuli007/AnyDone'
@@ -30,7 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AnyDone/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
   
   # s.resource_bundles = {
   #   'AnyDone' => ['AnyDone/Assets/*.png']
